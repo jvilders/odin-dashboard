@@ -239,6 +239,10 @@ body {
     padding-inline: 0.5rem;
 }
 
+input:focus {
+    outline: 1px solid var(--highlight-color);
+}
+
 /* profile info */
 .profile-info {
     display: grid;
