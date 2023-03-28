@@ -25,7 +25,7 @@
 }
 
 :root:has(.dark-mode-toggle:checked) {
-    /* No creativity to be found */
+    /* Overwrite palette here for dark mode if I ever find the creativity */
 }
 
 /* utility classes */

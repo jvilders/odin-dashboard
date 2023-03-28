@@ -1,7 +1,7 @@
 # Dashboard mockup for The Odin Project
 
 ## Context
-The final assignment for the intermediate HTML and CSS course was to recreate (or freely design, but I wasn't that creative) a dashboard design, using CSS Grid for layout whenever possible. This isn't because Grid > Flex, but because the course introduced Grid and this assignment was to hammer home how to work with it.
+The final assignment for the intermediate HTML and CSS course was to [recreate (or freely design, but I wasn't that creative) a dashboard design](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard), using CSS Grid for layout whenever possible. This isn't because Grid > Flex, but because the course introduced Grid and this assignment was to hammer home how to work with it.
 
 The assignment is not meant to be responsive but some parts resize a little bit.
 
@@ -9,7 +9,7 @@ Recognizing my own habits, I time-boxed the assignment this time to avoid spendi
 
 ## Learnings
 ### Grid layout vs logical grouping
-I ran into this mostly in creating the HTML for the sidebar element: There are clearly three groups of items in the sidebar, but these do share some alignment. It's easy to ensure this shared alignment if I 'flatten' those groups and have all the element as children of the sidebar (the grid container), but then I lose the grouping. Similarly if I keep the logical nesting, ensuring the proper alignment means using some shared CSS variables for spacing. Intuitively there is both a logical grouping *and* an alignment on some shared grid, but I could not find a way to have both in a nice way. This is where the css subgrid property might help in the future, but currently it's not supported by all major browsers yet.
+I ran into this mostly in creating the HTML for the sidebar element: There are clearly three groups of items in the sidebar, but these do share some alignment. It's easy to ensure this shared alignment if I 'flatten' those groups and have all the element as children of the sidebar (the grid container), but then I lose the grouping. Similarly if I keep the logical nesting, ensuring the proper alignment means using some shared CSS variables for spacing. Intuitively there is both a logical grouping *and* an alignment on some shared grid, but I could not find a way to have both in a nice way. This is where the [CSS subgrid property](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid) might help in the future, but currently it's not very well supported yet.
 
 I've added both icons and the icons' text as children, but it's also possible to pack these together into a 'sidebar-item' or something and lay out the icon and text within that. Which is the right option? I don't know.
 
