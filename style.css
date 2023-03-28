@@ -81,6 +81,12 @@
     background-color: rgba(0, 0, 0, 0.075);
 }
 
+.hover-highlight:active {
+    fill: var(--highlight-color);
+    filter: hue-rotate(30);
+    scale: 1.1;
+}
+
 .brand-icon {
     width: var(--brand-icon-size);
 }
@@ -101,6 +107,8 @@
 .lighter-font {
     color: rgba(0, 0, 0, 0.7);
 }
+
+/* Begin main styling */
 
 body {
     min-height: 100dvh;
