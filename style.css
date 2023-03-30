@@ -120,9 +120,17 @@ body {
 
 /* sidebar */
 
+.sidebar-wrapper {
+    background-color: var(--accent-color);
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
 .sidebar {
     color: var(--main-color);
-    background-color: var(--accent-color);
     --sidebar-gap: 3rem;
     --within-nav-gap: 1rem;
 
