@@ -234,6 +234,10 @@ body {
     .header > .greeting {
         display: none;
     }
+
+    .profile-info {
+        order: 1;
+    }
 }
 
 /* search bar */
