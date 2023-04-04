@@ -1,5 +1,7 @@
 # Dashboard mockup for The Odin Project
 
+See it [here](https://jvilders.github.io/odin-dashboard/)
+
 ## Context
 The final assignment for the intermediate HTML and CSS course was to [recreate (or freely design, but I wasn't that creative) a dashboard design](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard), using CSS Grid for layout whenever possible. This isn't because Grid > Flex, but because the course introduced Grid and this assignment was to hammer home how to work with it.
 
